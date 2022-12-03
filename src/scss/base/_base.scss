@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background: $white;
+  color: $black;
+  font-family: $ff-montserrat;
+  font-weight: 400;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+figure,
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
